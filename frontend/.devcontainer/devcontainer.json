@@ -1,0 +1,18 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "node",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.vscode-typescript-next",
+				"dsznajder.es7-react-js-snippets",
+				"GitHub.copilot",
+				"GitHub.copilot-labs"
+			]
+		}
+	}
+}
